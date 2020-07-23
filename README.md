@@ -55,13 +55,13 @@ is that it's faster this way.
 
 #### attribute visibility
 
-The object attributes are native _Rust_ types. They're made visible by the `#[py03(get)]` macro. It supports put (`#[pyo3(get,put)]`) as well, but
+The object attributes are native _Rust_ types. They're made visible by the `#[pyo3(get)]` macro. It supports put (`#[pyo3(get,put)]`) as well, but
 I don't want/need that. Frankly the reason they're visible at all is for debugging and screwing around. I don't actually access the attributes
 this way in production.
 
 #### no `__init__`, use `new`
 
-The constructor is the `new()` method, decorated with the `#[new]` method.
+The constructor is the `new()` method, decorated with the `#[new]` macro.
 
 #### `&str` versus `String`
 
