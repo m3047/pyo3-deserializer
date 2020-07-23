@@ -1,0 +1,17 @@
+[package]
+name = "wtrack_base"
+version = "0.1.0"
+authors = ["Fred Morris <consulting@m3047.net>"]
+edition = "2018"
+
+[lib]
+name = "wtrack_base"
+crate-type = ["cdylib"]
+
+[dependencies]
+lazy_static = "1.4.0"
+regex = "1.3.9"
+
+[dependencies.pyo3]
+version = "0.11.1"
+features = ["extension-module"]
