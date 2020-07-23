@@ -1,2 +1,3 @@
 # pyo3-deserializer
-An example deserializer written in Rust, callable from Python
+## _An example deserializer written in Rust, callable from Python_
+
