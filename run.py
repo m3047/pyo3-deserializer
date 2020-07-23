@@ -12,8 +12,9 @@
 # distributed under the License is distributed on an "AS IS" BASIS,
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
-# limitations under the License.import unittest
+# limitations under the License.
 
+import unittest
 import wtrack_base
 
 ONE_RECORD = """1595096135.744034\t2.437GHz\t44\t0\t5\t1c:b7:2c:7c:15:98\tf4:f5:24:dd:83:9d\t0\t2535385091\t1\t\\x82\\x84\\x8b\\x96$0Hl\t3\t\\x08\t42\t\\x00\t45\t\\xfc\\x19\\x1b\\xff\\xff\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\t47\t\\x00\t48\t\\x01\\x00\\x00\\x0f\\xac\\x04\\x01\\x00\\x00\\x0f\\xac\\x04\\x01\\x00\\x00\\x0f\\xac\\x02\\x0c\\x00\t50\t\\x0c\\x12\\x18`\t61\t\\x08\\x08\\x11\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\t221+\t\\x00\\t\\x00\\x10\\x18\\x02\\x01\\x10,\\x00\\x00\\x00\\x18\\x00P\\xf2\\x02\\x01\\x01\\x80\\x00\\x03\\xa4\\x00\\x00'\\xa4\\x00\\x00BC^\\x00b2/\\x00\t999\t\n"""
